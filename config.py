@@ -1,0 +1,1 @@
+SMOOTHING = 5
