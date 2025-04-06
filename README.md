@@ -1,20 +1,20 @@
 # aircursor-navigate-pc-hand-gestures
-Project Overview 
-     AirCursor is a computer vision-based Python project that lets you control your mouse cursor using hand gestures. It uses MediaPipe for hand tracking, OpenCV for camera       input, and PyAutoGUI to simulate mouse actions.You can move the cursor using your index finger, and simulate a mouse click by bringing your thumb and index finger            together.
+ 
+AirCursor is a computer vision-based Python project that lets you control your mouse cursor using hand gestures. It uses MediaPipe for hand tracking, OpenCV for camera       input, and PyAutoGUI to simulate mouse actions.You can move the cursor using your index finger, and simulate a mouse click by bringing your thumb and index finger            together.
 
 Features
-    - Cursor Control: Move your mouse using your index finger.
-    - Click Gesture: Click by pinching your thumb and index finger.
-    - Real-Time Tracking: Hand detection with webcam using MediaPipe.
-    - Smooth Movement: Smart smoothing for stable pointer control.
-    - One-Hand Use: Fully operable with a single hand.
-    - Lightweight: Runs efficiently even on low-end machines.
+- Cursor Control: Move your mouse using your index finger.
+- Click Gesture: Click by pinching your thumb and index finger.
+- Real-Time Tracking: Hand detection with webcam using MediaPipe.
+- Smooth Movement: Smart smoothing for stable pointer control.
+- One-Hand Use: Fully operable with a single hand.
+- Lightweight: Runs efficiently even on low-end machines.
 
 Tech Stack
-    - OpenCV
-    - MediaPipe
-    - PyAutoGUI
-    - Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+- Python
 
 Getting Started
 
