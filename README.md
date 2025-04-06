@@ -11,41 +11,41 @@ Features
 - Lightweight: Runs efficiently even on low-end machines.
 
 Tech Stack
-OpenCV
-MediaPipe
-PyAutoGUI
-Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+- Python
 
 Getting Started
-1.Clone the Repository
-2.Set Up a Virtual Environment
-3.Install Dependencies
-  pip install -r requirements.txt
-4.Run the Project
-  python main.py
+    1.Clone the Repository
+    2.Set Up a Virtual Environment
+    3.Install Dependencies
+      pip install -r requirements.txt
+    4.Run the Project
+      python main.py
 
 Project Structure
-  AirCursor/
-  │
-  ├── main.py               # Gesture + cursor control
-  ├── utils.py              # Utility functions (distance, smoothing)
-  ├── gestures.py           # Gesture definitions
-  ├── requirements.txt      # Libraries
+            AirCursor/
+            │
+            ├── main.py               # Gesture + cursor control
+            ├── utils.py              # Utility functions (distance, smoothing)
+            ├── gestures.py           # Gesture definitions
+            ├── requirements.txt      # Libraries
 
 Controls:
 
-Action                              What It Does
+    Action                              What It Does
 
-Move index finger                 Move mouse cursor
-Pinch thumb + index               Click the mouse
-Press 'q'                         Quit the program
+    Move index finger                 Move mouse cursor
+    Pinch thumb + index               Click the mouse
+    Press 'q'                         Quit the program
 
 How It Works
 
-  1.OpenCV opens webcam feed.
-  2.MediaPipe detects and tracks hand landmarks (21 points).
-  3.Landmark index 8 (index fingertip) is used to control the cursor.
-  4.A click gesture is detected if the index fingertip and thumb tip (index 4) are close together.
-  5.PyAutoGUI moves the mouse and performs a click.
+    1.OpenCV opens webcam feed.
+    2.MediaPipe detects and tracks hand landmarks (21 points).
+    3.Landmark index 8 (index fingertip) is used to control the cursor.
+    4.A click gesture is detected if the index fingertip and thumb tip (index 4) are close together.
+    5.PyAutoGUI moves the mouse and performs a click.
 
  
